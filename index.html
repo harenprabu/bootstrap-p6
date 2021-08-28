@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap navbars</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark   ">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#"><img src="logo.jpg" style="height:70px; width:150px;" /></a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav   ">
+    <li class="nav-item">
+      <a class="nav-link" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">ABOUT</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown ">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       Products
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">MARKETING
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CAREERS
+
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Photo
+        </a>
+      </li>
+  </ul>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+    <form class="form-inline ml-auto" action="">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+</nav>
+<div class="flex-grow-1"></div>s
+<button type="button" class="btn btn-default" aria-label="end Align">
+  <span class="glyphicon glyphicon-align-right" aria-hidden="true"></span>
+</button>
+<!--<div class="text-right">-->
+<button type="button" class="btn btn-default bg-danger  ">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-arrow-left-square" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+  </svg></span> sign in / sign up
+</button>
+</div>
+</nav>
+<br>
+  
+
+
+</body>
+</html>
